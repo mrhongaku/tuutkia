@@ -294,8 +294,21 @@ a:focus {
 }
 
 #contact {
-    padding-bottom: 150px;
+    display: table;
+    width: 100%;
+    min-height: 600px;
+    height: auto;
+    padding-bottom: 500px;
+    text-align: center;
+    color: #fff;
+    background: url(../img/contact.png) no-repeat;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
+
 
 @media(max-width:1199px) {
     ul.banner-social-buttons {
