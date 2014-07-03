@@ -11,8 +11,19 @@ html {
     height: 100%;
 }
 
-h1,
-h2,
+h1 {
+    color: orange;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+h2 {
+    color: orange;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    line-height: 2.0;
+    text-align: center;
+}
 h3,
 h4,
 h5,
@@ -61,7 +72,6 @@ a:focus {
     text-transform: uppercase;
     font-family: 'Roboto Condensed',sans-serif;
     color: black;
-    background-color: #fff;
 }
 
 .navbar-brand {
@@ -86,7 +96,7 @@ a:focus {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
     outline: 0;
-    background-color: rgba(255,255,255,.2);
+    background-color: #fff;
 }
 
 .navbar-toggle {
@@ -95,17 +105,17 @@ a:focus {
     color: #fff;
 }
 
-.navbar-toggle:focus,
+.navbar-toggle:focus
 .navbar-toggle:active {
     outline: 0;
 }
 
-@media(min-width:767px) {
+@media(min-width:800px) {
     .navbar {
         padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
-        background: 0 0;
+        background: transparent;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -129,7 +139,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpeg) no-repeat bottom center scroll;
+    background: url(../img/outro.png) no-repeat center top scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -144,10 +154,12 @@ a:focus {
 
 .brand-heading {
     font-size: 40px;
+    font-color: orange;
 }
 
 .intro-text {
     font-size: 18px;
+    font-color: orange;
 }
 
 @media(min-width:767px) {
@@ -170,7 +182,7 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid orange;
     border-radius: 35px;
     font-size: 40px;
     color: CornflowerBlue;
@@ -184,7 +196,7 @@ a:focus {
 .btn-circle:focus {
     outline: 0;
     color: CornflowerBlue;
-    background: CornflowerBlue;
+    background: orange;
 }
 
 .page-scroll .btn-circle i.animated {
@@ -281,7 +293,7 @@ a:focus {
     border: 1px solid CornflowerBlue;
     outline: 0;
     color: #000;
-    background-color: CornflowerBlue;
+    background-color: orange;
 }
 
 .btn-huge {
@@ -296,12 +308,12 @@ a:focus {
 #contact {
     display: table;
     width: 100%;
-    min-height: 600px;
+    min-height: 300px;
     height: auto;
-    padding-bottom: 500px;
+    padding: 100px;
     text-align: center;
     color: #fff;
-    background: url(../img/contact.png) no-repeat;
+    background: url(../img/outro.png);
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
